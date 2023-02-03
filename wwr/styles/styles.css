@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Varela+Round&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -14,11 +16,18 @@
 main section {
     text-align: center;
 }
+main section img {
+box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body {
     background-color: #FFFFFF;
+    font-family: "Varela Round";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #2E3192;
@@ -27,6 +36,7 @@ nav a {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     color: white;
@@ -36,6 +46,10 @@ nav a:hover {
     background-color: #2E3192;
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #3871C1;
@@ -44,43 +58,70 @@ nav a:hover {
 #background {
     background-color: #602E9E;
 }
-.msg {
-    background-color: #2E3192;
-}
 footer {
-    background-color: white;
+    background-color: #2E3192;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
-    color: #2E3192;
+    color: white;
     text-decoration: none;
 }
 footer a:hover {
-    color: #602E9E;
+    color: #3871C1;
 }
 footer p {
     font-size: 1.2em;
+    color: white;
 }
 footer p a:hover{
     text-decoration: underline;
 }
+footer.social img{
+    padding-top: 15px;
+}
 .home-title {
     color:#602E9E;
+    font-family: "Architects Daughter";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #2E3192;
 }
+h2 {
+    margin: 0;
+}
+.msg {
+    background-color: #2E3192;
+    line-height: 1.5em;
+    padding: 35px;
+}
 .msg h2 {
     color: white;
+    font-family: "Architects Daughter";
 }
 .msg p {
     color: #FFFFFF;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
 }
+#logo-link {
+    padding-top: 5px;
+}
 #hero-img {
     width: 100%;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #602E9E
 }
