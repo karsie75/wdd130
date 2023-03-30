@@ -189,3 +189,23 @@ footer {
 .blue-naped-card p, h2{
     color: #FFFFFF;
 }
+
+.opaline-card{
+    margin: 50px 0;
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.black-masked-card{
+    margin: 50px 0;
+    grid-column: 7/9;
+    grid-row: 1/2;
+}
+
+.opaline-card p, h2{
+    color: #FFFFFF;
+}
+
+.black-masked-card p, h2{
+    color: #FFFFFF;
+}
